@@ -11,5 +11,4 @@ html
             each pet in data
                 .card 
                     h2.card__name #{pet.properties.name}
-                    p.card__type #{pet.properties.type}
-                    p.card__color #{pet.properties.color}
+                    p.card__description #{pet.properties.name} is a #{pet.properties.color} #{pet.properties.type}
